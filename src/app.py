@@ -5,8 +5,9 @@ app = FastAPI()
 
 @app.get('/')
 async def read_home():
-    return {"ok": "home"}
+    return {'ok': 'home'}
 
-@app.get("/health")
+
+@app.get('/health')
 async def read_health():
-    return {"ok": "health"}
+    return {'ok': 'health'}
