@@ -3,7 +3,7 @@
 
 name: Python application
 
-on:t pull
+on:
   pull_request:
     branches: [ main ]
 
